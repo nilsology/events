@@ -23,6 +23,9 @@ switch($subpage) {
   case "venues":
     require $base."/venues.inc.php";
     break;
+  case "events":
+    require $base."/events.inc.php";
+    break;
   default:
     require $base."/events.inc.php";
     break;

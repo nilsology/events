@@ -9,9 +9,9 @@
 $error = '';
 
 if ($error != '') {
-    $REX['ADDON']['installmsg']['cronjob'] = $error;
+  $REX['ADDON']['installmsg']['events'] = $error;
 } else {
-    $REX['ADDON']['install']['cronjob'] = true;
+  $REX['ADDON']['install']['events'] = true;
 }
 
 
